@@ -1,0 +1,29 @@
+---
+title: "Knowledge Graph Research"
+format: pdf
+editor: visual
+---
+
+-   Represents a network of data illustrating the relationship between them. Usually stored in a graph database and visualised as a graph structure.
+
+-   Made up of three components:
+
+    -   Nodes
+
+    -   Edges: Defines the relationships between nodes
+
+    -   Labels
+
+-   Typically made up of datasets from other sources which frequently in structure. Schemas, identities and context work together to provide this.
+
+    -   Schemes: provide the framework for the knowledge graph
+
+    -   Identities: classify the underlying nodes
+
+    -   Context: determine the setting in which that knowledge exists
+
+\newpage
+
+## References:
+
+-   IBM (2026) *What is a knowledge graph?*, IBM Think, available at: [https://www.ibm.com/think/topics/knowledge-graph](https://www.ibm.com/think/topics/knowledge-graph?utm_source=chatgpt.com) (Accessed: 18 August 2026).
