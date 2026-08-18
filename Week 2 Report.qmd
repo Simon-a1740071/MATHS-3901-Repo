@@ -22,15 +22,13 @@ editor: visual
 
         -   e.g. `https://researchers.adelaide.edu.au/profile/peter.pudney`
 
-    -   Worked through an R script to initially pull a researchers name from the university's webpage profile. This then lead to further research into how to run the file provided through a script and pull names and sort them into a table.
+    -   Worked through an R script to initially pull a researchers name from the university's webpage profile. This then lead to further research into how to run the entire file provided through a script and pull multiple names and sort them into a table.
 
-        -   Used a package `purr` to enable multiple page scraping for the existing `rvest` package.
+    -   Used a package `purr` to enable multiple page scraping for the existing `rvest` package. Uploaded to the repository titled `web_scraper.R`. At the moment it's a working test file with few comments. Will have to add them in later.
 
-        -   This file is in the uploaded onto the repository titled `web_scraper.R`. At the moment it's a working test file with few comments. Will have to add them in later.
+        -   What the script is doing is turns the provided file into a data frame, combines it with the main URL and runs it through a function to read the link and pull the headings of each researcher.
 
-            -   What the script is doing is turns the provided file into a data frame, combines it with the main URL and runs it through a function to read the link and pull the headings of each researcher.
-
-                -   Had to look into how to use inspect element in order to pull the correct correct HTML name type. Still looking into this and haven't gotten a full grasp just yet.
+            -   Had to look into how to use inspect element in order to pull the correct correct HTML name type. Still looking into this and haven't gotten a full grasp just yet.
 
     -   Some issues with this. The researcher profiles have drop down menus that need to be activated to further pull more data. For example, you have to press Publication then press Journals to expand and see all the journal publications.
 
