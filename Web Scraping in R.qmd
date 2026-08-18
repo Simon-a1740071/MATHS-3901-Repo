@@ -42,3 +42,5 @@ publications <-
 -   Wickham, H, Çetinkaya-Rundel, M & Grolemund, G 2023, *R for Data Science (2e): Web scraping*, viewed 18 August 2026, [https://r4ds.hadley.nz/webscraping.html](https://r4ds.hadley.nz/webscraping.html?utm_source=chatgpt.com)
 
 -   Motgi, A 2021, *Web Scrape Text from ANY Website -- Web Scraping in R (Part 1)*, YouTube video, Dataslice, viewed 18 August 2026, [https://www.youtube.com/watch?v=v8Yh_4oE-Fs](https://www.youtube.com/watch?v=v8Yh_4oE-Fs&utm_source=chatgpt.com).
+
+-   Tures, J. (n.d.) \'Scraping of multi-page websites\', *Web Scraping using R*. Available at: [https://jakobtures.github.io/web-scraping/rvest3.html](https://jakobtures.github.io/web-scraping/rvest3.html?utm_source=chatgpt.com) (Accessed: 18 August 2026).
