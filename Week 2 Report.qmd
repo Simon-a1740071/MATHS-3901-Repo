@@ -57,6 +57,6 @@ Considering once all publications of every researcher can be scraped, an initial
 
 ### References:
 
--   IBM (2026) *What is a knowledge graph?*, IBM Think, available at: [https://www.ibm.com/think/topics/knowledge-graph](https://www.ibm.com/think/topics/knowledge-graph?utm_source=chatgpt.com) (Accessed: 18 August 2026).
+-   IBM (2026) *What is a knowledge graph?*, IBM Think, viewed 18 August 2026, [https://www.ibm.com/think/topics/knowledge-graph](https://www.ibm.com/think/topics/knowledge-graph?utm_source=chatgpt.com)
 
 -   Wickham, H, Çetinkaya-Rundel, M & Grolemund, G 2023, *R for Data Science (2e): Web scraping*, viewed 18 August 2026, [https://r4ds.hadley.nz/webscraping.html](https://r4ds.hadley.nz/webscraping.html?utm_source=chatgpt.com)
