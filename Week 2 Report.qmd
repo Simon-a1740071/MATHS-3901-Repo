@@ -5,3 +5,60 @@ date: "18-08-2026"
 format: pdf
 editor: visual
 ---
+
+### Overview:
+
+-   A github repository was established to document and upload weekly reports, research into web scraping and knowledge graphs, R scripts regarding website scraping.
+
+    -   [Github Repository](https://github.com/Simon-a1740071/MATHS-3901-Repo)
+
+-   Brief research into knowledge graphs was done. They're essentially a network of data showcasing the relationships between data points.
+
+    -   Comprised of Nodes, edges and labels.
+
+-   Mainly looked into the `SMS_researchers.tsv` file provided, and how to data scrape in R.
+
+    -   A built in package called `rvest` was looked into and used. Essentially the file provided had a list of names typically "first_name.last_name". The university webpage for researchers has the URL `https://researchers.adelaide.edu.au/profile/`. Clicking onto the profiles of any researcher directs us to the webpage of said researcher and a new URL
+
+        -   e.g. `https://researchers.adelaide.edu.au/profile/peter.pudney`
+
+    -   Worked through an R script to initially pull a researchers name from the university's webpage profile. This then lead to further research into how to run the file provided through a script and pull names and sort them into a table.
+
+        -   Used a package `purr` to enable multiple page scraping for the existing `rvest` package.
+
+        -   This file is in the uploaded onto the repository titled `web_scraper.R`. At the moment it's a working test file with few comments. Will have to add them in later.
+
+            -   What the script is doing is turns the provided file into a data frame, combines it with the main URL and runs it through a function to read the link and pull the headings of each researcher.
+
+                -   Had to look into how to use inspect element in order to pull the correct correct HTML name type. Still looking into this and haven't gotten a full grasp just yet.
+
+    -   Some issues with this. The researcher profiles have drop down menus that need to be activated to further pull more data. For example, you have to press Publication then press Journals to expand and see all the journal publications.
+
+        -   Still looking into a potential solution using `rvest` and having the script treat the URLs are live and click to expand the table to then scrape. A link is provided in question: [read_html_live](https://rvest.tidyverse.org/reference/read_html_live.html)
+
+        -   Another issue, 9 researchers don't actually have a webpage on the university's system. For example Adrian Koerber is listed as `NA` in the table after scraping.
+
+### Future Planning
+
+Considering once all publications of every researcher can be scraped, an initial data frame should be made, for example:
+
+| Researcher | Publication | Co-author  | Year | Title |
+|------------|-------------|------------|------|-------|
+| John Smith | Journal     | Jane Doe   | 2026 | TItle |
+| ...        | ...         | ...        | ...  | ...   |
+
+### Inquiries
+
+-   With knowledge graphs, do we want a visual illustration as well?
+
+-   What real world usage of knowledge graphs are there to help better form a potential proposal and just overall get a better sense of how make one?
+
+-   Let me know what else should be considered higher priority for scraping.
+
+\newpage
+
+### References:
+
+-   IBM (2026) *What is a knowledge graph?*, IBM Think, available at: [https://www.ibm.com/think/topics/knowledge-graph](https://www.ibm.com/think/topics/knowledge-graph?utm_source=chatgpt.com) (Accessed: 18 August 2026).
+
+-   Wickham, H, Çetinkaya-Rundel, M & Grolemund, G 2023, *R for Data Science (2e): Web scraping*, viewed 18 August 2026, [https://r4ds.hadley.nz/webscraping.html](https://r4ds.hadley.nz/webscraping.html?utm_source=chatgpt.com)

@@ -3,9 +3,11 @@ pacman::p_load(tidyverse, rvest, purrr)
 researchers <-
   read_tsv("SMS_researchers.tsv", col_names = FALSE) |>
   rename(urls = X1) |>
-  as.tibble() |>
+  as_tibble()
+
+researchers |>
   mutate(urls = paste0("https://researchers.adelaide.edu.au/profile/",
-                       researchers$urls))
+                       researchers$urls)) -> researchers
 
 researchers |>
   mutate(
@@ -20,3 +22,5 @@ researchers |>
     }
     )
   ) -> researchers
+
+researchers #takes a bit to run through this function

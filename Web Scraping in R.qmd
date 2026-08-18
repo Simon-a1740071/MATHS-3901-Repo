@@ -43,4 +43,8 @@ publications <-
 
 -   Motgi, A 2021, *Web Scrape Text from ANY Website -- Web Scraping in R (Part 1)*, YouTube video, Dataslice, viewed 18 August 2026, [https://www.youtube.com/watch?v=v8Yh_4oE-Fs](https://www.youtube.com/watch?v=v8Yh_4oE-Fs&utm_source=chatgpt.com).
 
--   Tures, J. (n.d.) \'Scraping of multi-page websites\', *Web Scraping using R*. Available at: [https://jakobtures.github.io/web-scraping/rvest3.html](https://jakobtures.github.io/web-scraping/rvest3.html?utm_source=chatgpt.com) (Accessed: 18 August 2026).
+-   Tures, J. (n.d.) 'Scraping of multi-page websites', *Web Scraping using R*. Available at: [https://jakobtures.github.io/web-scraping/rvest3.html](https://jakobtures.github.io/web-scraping/rvest3.html?utm_source=chatgpt.com) (Accessed: 18 August 2026).
+
+-   https://rvest.tidyverse.org/reference/read_html_live.html
+
+-   https://rvest.tidyverse.org/reference/LiveHTML.html?utm_source=chatgpt.com#method-LiveHTML-view
