@@ -6,11 +6,11 @@ Welcome to the MATHS 3901 Project in Maths Repository. Here I'll be keeping file
 
 __18/08/26:__ What was added: 
 
-*`Test.R`. This is just a test file to see if the repository is working, there's nothing in here. Please ignore.
+* `Test.R`. This is just a test file to see if the repository is working, there's nothing in here. Please ignore.
 
-*`Week 2 Report.qmd`. This is a quarto markdown file briefly summarising findings found for the period 10th to 14th of August. ~~A pdf will be added later once this is finished.~~ A pdf file of the report has been added. See `Week-2-Report.pdf`.
+* `Week 2 Report.qmd`. This is a quarto markdown file briefly summarising findings found for the period 10th to 14th of August. ~~A pdf will be added later once this is finished.~~ A pdf file of the report has been added. See `Week-2-Report.pdf`.
 
-*`web_scraper.R`. A prototype file scraping just names at the moment. For research and documentation see `Web Scraping in R.qmd`
+* `web_scraper.R`. A prototype file scraping just names at the moment. For research and documentation see `Web Scraping in R.qmd`
 
 * `journal_scraper.R`. Work in progress script, trying to pull data for a single page before further use on multiple pages. 
 
