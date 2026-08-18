@@ -1,0 +1,44 @@
+---
+title: "Web Scraping in R"
+format: pdf
+editor: visual
+---
+
+-   In R, web scraping is done with `rvest`.
+
+-   Some websites will offer an API, a set of structured HTTP requests that return data as JSON. Should be using API where possible. Will give more reliable data.
+
+**Load Packages**
+
+-   Use inspect element, or a chrome extension to get the html categories
+
+```{r}
+pacman::p_load(tidyverse, rvest)
+```
+
+```{r}
+link <-
+  "" #webpage 
+page <- 
+  read_html(link) #gets the html code from the webpage
+```
+
+```{r}
+name <-
+  page |>
+  html_node("") |>
+  html_text()
+
+publications <-
+  page |>
+  html_node("") |>
+  html_text
+```
+
+\newpage
+
+## References:
+
+-   Wickham, H, Çetinkaya-Rundel, M & Grolemund, G 2023, *R for Data Science (2e): Web scraping*, viewed 18 August 2026, [https://r4ds.hadley.nz/webscraping.html](https://r4ds.hadley.nz/webscraping.html?utm_source=chatgpt.com)
+
+-   Motgi, A 2021, *Web Scrape Text from ANY Website -- Web Scraping in R (Part 1)*, YouTube video, Dataslice, viewed 18 August 2026, [https://www.youtube.com/watch?v=v8Yh_4oE-Fs](https://www.youtube.com/watch?v=v8Yh_4oE-Fs&utm_source=chatgpt.com).
