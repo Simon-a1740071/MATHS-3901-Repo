@@ -17,3 +17,9 @@ __18/08/26:__ What was added:
 * `Knowledge Graph Research.qmd`. Self explanatory, has references and dot points looking into knowledge graphs. 
 
 * `SMS_researchers.tsv` is the data provided to be used. 
+
+__20/08/26:__ What was added and modified
+
+* `web_scraper.R` Now writes out a `.rds` file of the now modified data set. See `researchers.rds`. This is only has the URLs and researcher names, omitting the xml column since that becomes unusable when saved and modified. 
+
+* `journal_scraper.R`. Further work has been done. It reads the `rds` file then looks for a single researcher and extracts the journal publications. 
