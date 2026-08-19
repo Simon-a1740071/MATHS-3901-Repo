@@ -40,10 +40,10 @@ editor: visual
 
 Considering once all publications of every researcher can be scraped, an initial data frame should be made, for example:
 
-| Researcher | Publication | Co-author  | Year | Title |
-|------------|-------------|------------|------|-------|
-| John Smith | Journal     | Jane Doe   | 2026 | TItle |
-| ...        | ...         | ...        | ...  | ...   |
+| Researcher | Publication | Co-author | Year | Title |
+|------------|-------------|-----------|------|-------|
+| John Smith | Journal     | Jane Doe  | 2026 | TItle |
+| ...        | ...         | ...       | ...  | ...   |
 
 ### Inquiries
 

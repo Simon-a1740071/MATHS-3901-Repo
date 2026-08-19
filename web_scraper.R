@@ -24,3 +24,8 @@ researchers |>
   ) -> researchers
 
 researchers #takes a bit to run through this function
+
+researchers |>
+  select(urls, researcher) |>
+  saveRDS("researchers.rds")
+

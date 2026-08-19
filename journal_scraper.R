@@ -1,14 +1,24 @@
-pacman::p_load(rvest, tidyverse, chromote)
+pacman::p_load(rvest, tidyverse)
 
-url <-
-  "https://researchers.adelaide.edu.au/profile/nicholas.fewster-young"
+readRDS("researchers.rds") -> researchers
 
-page <-
-  read_html_live(url)
+Pudney <- researchers |>
+  filter(researcher == "Prof Peter Pudney") |>
+  pull(urls) |>
+  read_html()
 
-page$click("button#tab-2.nav-link")
+Pudney |> 
+  html_text2()
 
-page$view()
+Pudney |>
+  html_element(".accordion-button") |>
+  html_attr("data-bs-target")
 
-Sys.sleep(1) #adds a delay so R doesn't immediately start the next function
+Pudney |>
+  html_elements(".accordion-item") |>
+  length()
 
+Pudney |>
+  html_elements(".accordion-item") |>
+  map(html_text2) |>
+  purrr::keep(\(contents) stringr::str_detect(contents, "Journals"))
