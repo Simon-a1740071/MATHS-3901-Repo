@@ -22,3 +22,13 @@ Pudney |>
   html_elements(".accordion-item") |>
   map(html_text2) |>
   purrr::keep(\(contents) stringr::str_detect(contents, "Journals"))
+
+Pudney |>
+  html_elements(".accordion-item") |>
+  map(html_text2) |>
+  stringr::str_detect("Books")
+
+Pudney |>
+  html_elements(".accordion-item") |>
+  map(html_text2) |>
+  purrr::keep(\(contents) stringr::str_detect(contents, "Books"))
