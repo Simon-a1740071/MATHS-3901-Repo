@@ -8,7 +8,7 @@ __18/08/26:__ What was added:
 
 * `Test.R`. This is just a test file to see if the repository is working, there's nothing in here. Please ignore.
 
-* `Week 2 Report.qmd`. This is a quarto markdown file briefly summarising findings found for the period 10th to 14th of August. ~~A pdf will be added later once this is finished.~~ A pdf file of the report has been added. See `Week-2-Report.pdf`.
+* `Week 2 Report.qmd`. This is a quarto markdown file briefly summarising findings found for the period 10th to 14th of August. ~~A pdf will be added later once this is finished. A pdf file of the report has been added. See `Week-2-Report.pdf`.~~
 
 * `web_scraper.R`. A prototype file scraping just names at the moment. For research and documentation see `Web Scraping in R.qmd`
 
@@ -20,6 +20,14 @@ __18/08/26:__ What was added:
 
 __20/08/26:__ What was added and modified
 
-* `web_scraper.R` Now writes out a `.rds` file of the now modified data set. See `researchers.rds`. This is only has the URLs and researcher names, omitting the xml column since that becomes unusable when saved and modified. 
+* `web_scraper.R` Now writes out a `.rds` file of the now modified data set. ~~See `researchers.rds`.~~ This only has the URLs and researcher names, omitting the xml column since that becomes unusable when saved and modified. 
 
 * `journal_scraper.R`. Further work has been done. It reads the `rds` file then looks for a single researcher and extracts the journal publications. 
+
+__25/08/26:__ What was added and modified
+
+* `web.scraper.R`. Significantly changed. Now can extract all publication types thanks to initial experimenting and iteration in `journal_scraper.R`. Writes a `.csv`. See `researcher.csv`. 
+
+* `journal_scraper.R`. Was used initially to work on a single researcher before applying to the main script. 
+
+* `Week 3 Report.qmd`. Report for period 17th to 22 August summarising findings. 
