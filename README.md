@@ -37,7 +37,7 @@ __04/11/26__
 * Hi again, apologies for the late update. The project is now completed. The following has been removed:
 
     * All remaining weekly reports. 
-    * `web.scraper.R`, `journal_scraper.R`, `researcher.rds`, `researcher.csv`
+    * `web.scraper.R`, `journal_scraper.R`, `researcher.rds`, `researcher.csv`, `Knowledge Graph Research.qmd`, `Web Scraping in R.qmd`.
     
 * What has been added: 
 
