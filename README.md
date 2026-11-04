@@ -43,4 +43,5 @@ __04/11/26__
 
     * `get_researcher.R`: This is the complete web scraper for the university's researcher profiles. 
     * `get_publications.R`: This is the data cleaner and extractor for publications. 
-    * `README`: A read me text file explaining what these scripts are basically doing. If you are a university staff or student, and would like to contact concerning the code or project. There should be a different `README` in the dropbox with my contact details, and a link to this repository. 
+    * `README.txt`: A text file explaining what these scripts are basically doing. If you are a university staff or student, and would like to contact concerning the code or project. There should be a different `README.txt` in the Capstone dropbox with my contact details, and a link to this repository. 
+    
